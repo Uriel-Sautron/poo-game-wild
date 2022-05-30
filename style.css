@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  overflow: hidden;
+  position: relative;
+}
+
+p {
+  position: absolute;
+  color: white;
+  top: 2rem;
+  left: 2rem;
+}
+
+p:nth-child(2) {
+  top: 4rem;
+}
+
+.btn-start {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10rem;
+  height: 2rem;
+  border-radius: 1rem;
+  background-color: white;
+  color: black;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 30rem;
+  height: 20rem;
+  border-radius: 1rem;
+}
+
+.modal > p {
+  text-align: center;
+  color: black;
+  font-size: 1.5rem;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.btn-restart {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10rem;
+  height: 2rem;
+  border-radius: 1rem;
+  background-color: white;
+  color: black;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
